@@ -1,5 +1,5 @@
 {
-  "serviceName": "Service name goes here",
+  "serviceName": "FCP Grant Pattern Library",
   "plugins": {
     "govuk-frontend": {
       "rebrand": true
