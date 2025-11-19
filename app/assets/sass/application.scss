@@ -4,3 +4,48 @@
 // 
 
 // Add extra styles here
+
+@import 'moj';
+
+.app-prose-scope > .govuk-width-container,
+.govuk-footer > .govuk-width-container {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100%;
+}
+
+.govuk-footer > .govuk-width-container {
+    padding: 0 20px;
+}
+
+.app-prose-scope > .govuk-width-container > .govuk-main-wrapper {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+/*
+.govuk-header__container {
+    padding: 0 1em;
+}
+
+.govuk-template--rebranded .govuk-header--defra {
+    background: white;
+    border-bottom: 10px solid #00a33b;
+}
+
+.govuk-template--rebranded .govuk-header__link--homepage:not(:focus) {
+    background-color: white;
+    color: #0b0c0c;
+}
+
+.govuk-template--rebranded .govuk-header__link--homepage {
+    word-spacing: 0;
+}
+
+.govuk-header__logo {
+    line-height: 32px;
+    img {
+        margin: 5px 0.5em 0 0;
+        width: 36px;
+    }
+}*/
